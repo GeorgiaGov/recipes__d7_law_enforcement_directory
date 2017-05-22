@@ -7,12 +7,12 @@ As a law enforcement agency, you may want to present information about your open
 Drupal excels at taking your case data, helping you structure it, and then formatting it for display. You can use core Drupal and few popular contributed modules to recreate most of what GBI has on their website without touching any code. For extra flair, you can add a couple snippets of custom code to smooth out the user experience.
 
 In this tutorial, you are going to:
-* [Build a Case content type](01_create_case_content_type.md)
-* [Build a view](02_create_view.md)
-* [Export all your new configuration to a reusable Feature.](03_create_feature.md)
-* [Add custom code that:](04_add_custom_code.md)
-  - Prefixes extra information to the case node title.
-  - Changes the display label of the Case Date per Case Type.
+1. [Build a Case content type](01_create_case_content_type.md)
+2. [Build a view](02_create_view.md)
+3. [Export all your new configuration to a reusable Feature.](03_create_feature.md)
+4. [Add custom code that:](04_add_custom_code.md)
+    - Prefixes extra information to the case node title.
+    - Changes the display label of the Case Date per Case Type.
 
 Ready? OK!
 
