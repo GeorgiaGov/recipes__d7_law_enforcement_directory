@@ -25,3 +25,5 @@ A working Drupal 7 site with these contributed modules installed. [If you need h
 * [Field group](https://www.drupal.org/project/field_group) (optional)
 
 (If you don’t have a development environment and don’t want to use your production site for this exercise, you can quickly set up an empty Drupal 7 site using [Acquia Dev Desktop](https://dev.acquia.com/downloads) and use that. Your new configuration will be portable between sites!)
+
+[Onward to part 1: create a content type.](01_create_case_content_type.md)
