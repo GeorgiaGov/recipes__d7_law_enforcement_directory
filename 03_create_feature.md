@@ -2,7 +2,7 @@
 
 ## Export the Configuration to a Feature
 
-Why should you export your new content type and view to a Feature? A Feature is just a Drupal module built using Features. This means you can reuse it, just like any other module. You can build out your configuration on one site, and then move it to another. If you're using some form of version control (and I recommend that you do), using Features with Drupal 7 allows you to capture and track your configuration changes in code.
+Why should you export your new content type and view to a Feature? A Feature is just a Drupal module built using Features. This means you can reuse it, just like any other module. You can build out your configuration on one site, and then move it to another. [If you're using some form of version control (and I recommend that you do)](https://www.drupal.org/node/803746), using Features with Drupal 7 allows you to capture and track your configuration changes in code.
 
 To create your feature, go to Structure -> Features -> Create Feature.
 
