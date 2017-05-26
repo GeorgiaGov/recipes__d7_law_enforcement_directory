@@ -6,8 +6,11 @@ Why should you export your new content type and view to a Feature? A Feature is 
 
 To create your feature, go to Structure -> Features -> Create Feature.
 
+![Screenshot of Create Feature link](images/03/fig1.png)
+
 ### Name your Feature
-<screenshot of the left part of create feature screen>
+
+![Screenshot of the left part of create feature screen](images/03/fig2.png)
 
 - **Name:** Law Enforcement Case Directory (you can name yours whatever you like, Cases Directory, Unsolved Cases, Police Case List, etc)
 - **Description:** Provides a content type and view for inputting and displaying ongoing and historic cases.
@@ -15,17 +18,22 @@ To create your feature, go to Structure -> Features -> Create Feature.
 - **Version:** 7.x-1.0
 
 ### Choose what to Export
-<screenshot of the right side of the features create screen>
+
+![Screenshot of the right side of the features create screen](images/03/fig3.png)
 
 1. Under Content Types, tick off "Case".
 2. Under Views, tick off "Cases".
 
 As you check off these items, you will see Features will also automatically add the items that should be exported with your complete configuration, like dependencies and field instances.
 
+![Screenshot of the right side of the features create screen with items selected](images/03/fig4.png)
+
 ### Export and open
 
 When you are ready to export, hit the "Download Feature" button. Features will create a \*.tar file with your new feature module and it will download to your computer.
 
-<screenshot of download button and the possibly also the download showing up in Chrome>
+![Screenshot of download button](images/03/fig5.png)
 
 If you’re not familiar with \*.tar files, know that they are a standard archive type of file in the Unix world. They'll automatically extract themselves on Mac. On Windows, you can use a utility program like Winzip or 7-zip to extract them as you would a \*.zip file.
+
+Extract your files and [get ready to add some custom code to your new feature.](03_create_feature.md)
