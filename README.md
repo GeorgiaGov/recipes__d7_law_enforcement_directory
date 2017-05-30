@@ -1,5 +1,7 @@
 # How To Build a Law Enforcement Case Directory
 
+Building a Feature for your Drupal 7 site.
+
 ## Introduction
 
 As a law enforcement agency, you may want to present information about your open cases on your website. This can be useful for collecting leads from the public; furthermore, greater transparency leads to greater trust in your organization. [The Georgia Bureau of Investigation does exactly this with their Cases page.](http://gbi.georgia.gov/cases)
