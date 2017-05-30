@@ -14,15 +14,15 @@ Aside from committing your configuration to code, another useful thing about Fea
 include_once 'case_directory.features.inc';
 ```
 
-### Prefix the node Title/Case Number with the Case Type
+### I. Prefix the node Title/Case Number with the Case Type
 
-At GBI, the case type appears in the node title of the case, along with some text that indicates you are looking at a case number. These are added to the node title on save without user additional user input, using custom code.
+At GBI, the case type appears in the node title of the case, along with some text that indicates you are looking at a case number. These are added to the node title on save without user additional user input, using custom code. The title can end up looking something like:
 
-<screenshot of example node title?>
+`robberies - Case Number: 5251546`
 
-See the snippet in this repo titled [prefix_title_with_case_type.php](snippets/prefix_title_with_case_type.php). Paste this snippet into your \*.module file to get this functionality. Make sure to replace [YOUR_MODULE_NAME] with the name of your Feature module.
+See the snippet in this repo titled [prefix_title_with_case_type.php](snippets/prefix_title_with_case_type.php). Paste this snippet into your \*.module file to get alter your case titles like this on save. Make sure to replace [YOUR_MODULE_NAME] with the name of your Feature module.
 
-### Alter the Display Label of the Case Date by on Case Type
+### II. Alter the Display Label of the Case Date by on Case Type
 
 You'll see reviewing different Case Types on the GBI cases page that though the date for each case type is pulled from the same field, the labels for the dates are specific to each case type. This is made possible by four functions:
 1. One to alter the label on a full node. `hook_node_view()`
@@ -34,6 +34,10 @@ See the snippet in this repo titled [alter_label_of_date_by_case_type.php](snipp
 
 -------------------------------------------------------
 
-Once you have your new custom code in place, save your \*.module file. Take the whole folder that includes the \*.module file and upload it to your site at `sites/all/modules/custom`. Drupal does not come with a `/custom/` directory, so if you haven't created one already, create one now.
+Once you have your new custom code in place (taking care to replace all instances of [YOUR_MODULE_NAME] with your module name), save your \*.module file. Take the whole folder that includes the \*.module file and upload it to your site at `sites/all/modules/custom`. Drupal does not come with a `/custom/` directory, so if you haven't created one already, create one now.
 
-Go check out your new Feature on the page at Structure -> Features! That is a module you just created, and since it is a module, you can enable it from either this page or the modules page.
+Go check out your new Feature on the page at Structure -> Features! That is a module you just created! Since it is a module, you can enable it from either this page or the module admin page.
+
+-------------------------------------------------------
+
+If this tutorial was helpful to you, we'd love to see what you've built. Tweet at [@GeorgiaGovTeam](https://twitter.com/georgiagovteam) to show off your work.
