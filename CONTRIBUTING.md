@@ -1,6 +1,6 @@
 # Contributing
 
-Thank you so much for wanting to contribute back to this tutorial! We can always use contructive feedback. Whether you have a way to clarify the intructions or just want to correct our spelling, we are excited to hear from you.
+Thank you so much for wanting to contribute back to this tutorial! We can always use contructive feedback. Whether you have a way to clarify the instructions or just want to correct our spelling, we are excited to hear from you.
 
 You can start by either [opening an issue](https://help.github.com/articles/creating-an-issue/), or by [forking the repo](https://help.github.com/articles/fork-a-repo/), making your changes and [submitting a pull request](https://help.github.com/articles/creating-a-pull-request/) for consideration.
 
