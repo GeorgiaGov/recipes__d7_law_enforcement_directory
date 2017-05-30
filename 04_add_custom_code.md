@@ -40,4 +40,4 @@ Go check out your new Feature on the page at Structure -> Features! That is a mo
 
 -------------------------------------------------------
 
-If this tutorial was helpful to you, we'd love to see what you've built. Tweet at [@GeorgiaGovTeam](https://twitter.com/georgiagovteam) to show off your work.
+If this tutorial was helpful to you, we'd love to see what you've built. Tweet at [@GeorgiaGovTeam](https://twitter.com/georgiagovteam) to show off your work. If you see some room for improvement, see [CONTRIBUTING.md](CONTRIBUTING.md).
